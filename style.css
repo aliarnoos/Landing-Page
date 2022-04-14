@@ -1,0 +1,147 @@
+body {
+    
+    font-family: 'Tajawal', sans-serif;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+header img {
+    display: flex;
+    justify-content: flex-start;
+    height: 9em;
+}
+nav  ul {
+    display: flex;
+    gap: 3em;
+    
+
+}
+nav li {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: #282560;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.7em;
+
+}
+.sec1 {
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 3em;
+    background-color: #282560;
+    color: white;
+    font-size: 1.2em;
+}
+.group {
+    width: 40em;
+    border-radius: 1em;
+}
+button {
+    background-color: #f9ae42;
+    color: #282560;
+    border: 0;
+    padding: 0.6em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 1em;
+    font-size: 0.9em;
+
+}
+.sec2 {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #282560;
+    margin-top: 1em;
+}
+.list-box {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    border:  solid #282560 0.2em;
+    border-radius: 1em;
+}
+.box-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec3 {
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    font-size: 1.3em;
+    background-color: #f9ae42;
+    color: #282560;
+
+}
+q {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2em;
+    font-style: italic;
+}
+.yad {
+    margin-left: auto;
+    margin-right: 3em;
+    font-weight: bold;
+}
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    font-size: 1.2em;
+    color: white;
+}
+.join-us {
+    margin-right: 6em;
+}
+h3 {
+    margin-bottom: -1em;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282560;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1em;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+    color: #282560;
+    font-size: 1.1em;
+}
+nav a:hover {
+    background-color: #282560;
+    color: white;
+    padding: 0.7em;
+    border-radius: 1em;
+}
